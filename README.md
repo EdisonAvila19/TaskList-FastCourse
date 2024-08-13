@@ -1,6 +1,6 @@
-# CURSO YOUTUBE FAZT (MERN)
+# SIGUIENDO CURSO YOUTUBE FAZT (MERN)
 
-  Curso de mern con react, express y mongodb
+  Curso de mern con react, express y MongoDB
 
   Enlace al Video https://www.youtube.com/watch?v=NmkY4JgS21A&list=PLyHm56uSshkq-xppdxngPzACc_njo417Y&index=5
 
