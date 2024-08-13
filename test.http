@@ -1,0 +1,68 @@
+GET http://localhost:4000
+
+### Login
+POST http://localhost:4000/api/login
+content-type: application/json
+
+{ 
+    "email": "user@smartbank.com", 
+    "password": "123456789"
+}
+
+### Logout
+POST http://localhost:4000/api/logout
+
+### Register
+POST http://localhost:4000/api/register
+content-type: application/json
+
+{ 
+    "email": "user@smartbank.com", 
+    "password": "123456789",
+    "username": "admin"
+}
+
+### Register
+POST http://localhost:4000/api/register
+content-type: application/json
+
+{ 
+    "email": "test1@smartbank.com", 
+    "password": "1234",
+    "username": "admin"
+}
+
+### Validation
+GET http://localhost:4000/api/profile
+
+### Token validation
+GET http://localhost:4000/api/auth/verify
+
+### Get all the tasks
+GET http://localhost:4000/api/tasks
+
+### Get one task
+GET http://localhost:4000/api/tasks/66b687432a6081fceb5d6090
+
+### Create task
+POST http://localhost:4000/api/tasks
+content-type: application/json
+
+{ 
+    "title": "test Title3",
+    "description": "test Description3"
+}
+
+### Update task
+PUT http://localhost:4000/api/tasks/66b687dfa6e3278e8d43f701
+content-type: application/json
+
+{ 
+    "title": "test Title asdf222",
+    "description": "test Description asdf222"
+}
+
+
+### Delete task
+DELETE http://localhost:4000/api/tasks/66b685d71cf1b70d52524f3d
+
